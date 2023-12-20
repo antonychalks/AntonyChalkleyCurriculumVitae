@@ -22,6 +22,10 @@
     background-color: #fff;
 }
 
+.bg-color-contact-heading{
+    background-color: lightgray;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
