@@ -89,12 +89,8 @@ header {
     margin: 0;
 }
 
-.heading {
-    margin-left: 50px;
-}
-
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../media/logo.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,27 +134,35 @@ header {
     margin: 0;
 }
 
-.menuitem {
+.downloadbutton{
+    margin-top: 50px;
+}
+
+.menuitem,
+.downloadbutton {
     height: 120px;
     text-align: center;
     padding: 0;
 }
 
-    .menuitem a {
+    .menuitem a,
+    .downloadbutton a {
         width: 100%;
         text-decoration: none;
         color: #fff;
         height: 120px;
     }
 
-        .menuitem a i {
+        .menuitem a i,
+        .downloadbutton a i {
             padding-top: 22px;
             display: block;
             color: #fafafa;
             font-size: 26px;
         }
 
-    .menuitem span {
+    .menuitem span,
+    .downloadbutton span {
         display: block;
         width: 100%;
         padding-top: 5px;
