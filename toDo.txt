@@ -1,0 +1,20 @@
+1. Add mailto to all the mail buttons.
+2. Add phone link to all the phone buttons.
+3. Add LinkedIn links to all the linkedin buttons.
+4. Create the portfolio page:
+    a) Left side is the different projects, in boxes used as buttons with following information:
+            i) Name of project
+            ii) date started/finished
+            iii) Tech used
+            iv) Short discription
+        Javascript is used for each button to change the main content.
+
+    b) Top of main page is an inlayed preview of the webpage. This will either include an interactive website or a picture if this fails/ is too slow.
+    c) Underneath this 3 columns:
+            i) Link to the webpage.
+            ii) Description of the website and reason for creation.
+            iii) Link to repository
+5. Change the colour scheme of the nav buttons.
+6. Add GitHub, email and phone to the links in footer.
+7. Add the expansion of the work experience on CV page.
+8. Add the other skills underneath the skills section of the CV page.
