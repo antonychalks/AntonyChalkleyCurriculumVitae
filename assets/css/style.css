@@ -42,6 +42,14 @@
     background-color: #525252;
 }
 
+.ui-menu-color-portfolio {
+    background-color: #74db80;
+}
+
+a{
+    color: black;
+}
+
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -49,6 +57,10 @@ h2,
 h3,
 h4 {
     margin: 0;
+}
+
+.name, .title{
+    text-align: center;
 }
 
 .uppercase {
@@ -113,7 +125,7 @@ header {
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
-    margin-bottom: 90px;
+    margin-bottom: 20px;
     color: #fff;
 }
 
@@ -135,7 +147,9 @@ header {
 }
 
 .downloadbutton{
-    margin-top: 50px;
+    margin-top: 0;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .menuitem,
@@ -369,6 +383,11 @@ button[type="submit"] {
     background-color: #e84610;
 }
 
+.contact-information a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -377,5 +396,14 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
+
+    .downloadbutton{
+        margin-top: 50px;
+    }
+
+    .title {
+        margin-bottom: 90px;
+        color: #fff;
     }
 }
