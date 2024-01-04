@@ -46,6 +46,16 @@
     background-color: #74db80;
 }
 
+.ui-content-item-stagger1{
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+
+.ui-content-item-stagger2{
+    background-color: lightgrey;
+    margin-bottom: 20px;
+}
+
 a{
     color: black;
 }
@@ -116,8 +126,9 @@ header {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
-    margin-top: 50px;
+    margin-top: 20px;
     color: #fff;
+    padding: 0 10px;
 }
 
 .title {
@@ -127,6 +138,7 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     color: #fff;
+    padding: 0 10px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -388,6 +400,44 @@ button[type="submit"] {
     color: inherit;
 }
 
+/* ----------------------------------------Projects */
+.project-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+    .project-item p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .project-item:before {
+        content: attr(data-dates);
+        position: absolute;
+        left: 2.5em;
+        top: 3em;
+        display: block;
+        font-family: "Exo", sans-serif;
+        font-weight: 500;
+        font-size: 0.8em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .project-item:after {
+        width: 12px;
+        height: 12px;
+        display: block;
+        top: 2.4em;
+        position: absolute;
+        left: -6px;
+        border-radius: 12px;
+        content: '';
+        background: #fafafa;
+    }
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
@@ -404,6 +454,8 @@ button[type="submit"] {
 
     .title {
         margin-bottom: 90px;
-        color: #fff;
+    }
+    .name {
+        margin-top: 50px;
     }
 }
