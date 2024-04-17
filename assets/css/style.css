@@ -400,7 +400,7 @@ button[type="submit"] {
     color: inherit;
 }
 
-.card-header{
+.form-header, .contact-header{
     height: 140px;
 }
 
@@ -416,35 +416,45 @@ button[type="submit"] {
     color: #fafafa;
 }
 
-    .project-item p {
-        padding: 0;
-        margin: 0;
-    }
+.project-item p {
+    padding: 0;
+    margin: 0;
+}
 
-    .project-item:before {
-        content: attr(data-dates);
-        position: absolute;
-        left: 2.5em;
-        top: 3em;
-        display: block;
-        font-family: "Exo", sans-serif;
-        font-weight: 500;
-        font-size: 0.8em;
-        padding: 0;
-        margin: 0;
-    }
+.project-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
 
-    .project-item:after {
-        width: 12px;
-        height: 12px;
-        display: block;
-        top: 2.4em;
-        position: absolute;
-        left: -6px;
-        border-radius: 12px;
-        content: '';
-        background: #fafafa;
-    }
+.project-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.project-card-button{
+    border: unset;
+    background-color: unset;
+    padding: unset;
+}
+
+.project-card-body{
+    padding: 5px;
+}
 
 /* ----------------------------------------Media Queries */
 

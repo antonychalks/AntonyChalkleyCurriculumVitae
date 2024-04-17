@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <title>Antony Chalkley</title>
 </head>
 <body>
@@ -56,6 +57,26 @@
                     </div>
                 </div>
                 <div class="project-item" data-dates="08/2023 - Present">
+                    <button class="project-card-button" data-name="snaProducts" onclick="displayProject(this)">
+                        <div class="card project-card">
+                            <div class="card-header">
+                                <h4 class="card-title">SnA Products</h4>
+                            </div>
+                            <div class="card-body project-card-body">
+                                <p class="card-text">A data-driven e-commerce website made for a fictional company called SnA Products, selling homeware products with ease.</p>
+                            </div>
+                            <div class="card-footer project-card-body">
+                                <p class="card-text">HTML5, CSS3, JS, Python3, Django, SQL</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="project-item" data-dates="08/2023 - Present">
+                    <h4>Project Name</h4>
+                    <p>Tech Used</p>
+                    <p>Description</p>
+                </div>
+                <div class="project-item" data-dates="08/2023 - Present">
                     <h4>Project Name</h4>
                     <p>Tech Used</p>
                     <p>Description</p>
@@ -78,7 +99,7 @@
             </div>
             <div class="col-md-8 bg-color-three-reasons section-column">
                 <div class="row">
-                    <div class="col">
+                    <div class="col" id="portfolio_content">
                         <h3 class="section-heading uppercase">Click on a project to view it.</h3>
                     </div>
                 </div>
@@ -142,4 +163,5 @@
         </div>
     </footer>
 </body>
+<script src="assets/js/script.js"></script>
 </html>
