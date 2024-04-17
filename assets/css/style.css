@@ -400,6 +400,15 @@ button[type="submit"] {
     color: inherit;
 }
 
+.card-header{
+    height: 140px;
+}
+
+.card-body{
+    padding: unset;
+    padding-top: 20px;
+}
+
 /* ----------------------------------------Projects */
 .project-item {
     padding: 4em 2em 0em 2em;
