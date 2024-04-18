@@ -456,6 +456,12 @@ button[type="submit"] {
     padding: 5px;
 }
 
+iframe{
+    height: 700px;
+    padding-right: unset !important;
+    padding-left: unset !important;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
