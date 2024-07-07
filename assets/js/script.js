@@ -4,6 +4,7 @@ $(document).ready(function() {
 
   function displayProject(button) {
     var projectName = button.getAttribute('data-name'); // Get the value of data-name attribute
+    const headerHeight = $("header").height();
     console.log("Displaying project:", projectName)
     $.get('assets/includes/' + projectName + '.html')
     .done(function(html) {
@@ -13,6 +14,9 @@ $(document).ready(function() {
     .fail(function(xhr, status, error) {
       console.error("Error loading HTML:", error);
     });
-    
+    scrollTo({
+      top: headerHeight,
+      behavior: 'smooth',
+    })
   }
 
