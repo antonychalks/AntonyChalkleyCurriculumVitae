@@ -102,6 +102,10 @@ h4 {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
+}
+
+
+.section-heading {
     margin-bottom: 40px;
 }
 
@@ -112,10 +116,11 @@ header {
 }
 
 .logo {
+    background-color: #525252;
     background: url("../media/logo.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -326,14 +331,20 @@ footer {
 }
 
 /* ----------------------------------------Work History */
+@media(min-width: 992px) {
+    .history-heading {
+        margin-bottom: 50px;
+    }
+}
 
 .history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
+        color: #fafafa;
+
 }
 
 .timeline-item {
-    padding: 4em 2em 0em 2em;
+    padding: 2em 2em 2em 2em;
+    margin: 2em 0 0 0;
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
@@ -348,7 +359,7 @@ footer {
         content: attr(data-dates);
         position: absolute;
         left: 2.5em;
-        top: 3em;
+        top: 1em;
         display: block;
         font-family: "Exo", sans-serif;
         font-weight: 500;
@@ -372,6 +383,31 @@ footer {
 .history-items {
     margin-bottom: 30px;
 }
+
+.timeline-expanded-item{
+    border: #9b59b6 solid 3px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#expanded-item-container{
+    padding: 20px 20px 0 20px;
+}
+
+#my_skills {
+    position: relative;
+    z-index: 1;
+}
+
+#experience-expanded {
+    position: relative;
+    z-index: 10;
+}
+
+.expanded{
+    border: white solid 3px;
+}
+
 
 /* ----------------------------------------Contact Form */
 
